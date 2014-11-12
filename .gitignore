@@ -4,6 +4,11 @@
 *.o
 *.obj
 
+# Construct 2 files
+*.uistate.xml
+*.backup1
+*.autosave
+
 # Precompiled Headers
 *.gch
 *.pch
