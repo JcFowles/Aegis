@@ -136,7 +136,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="10" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="8866869217751447" speed="10">
+                    <animation framecount="10" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="8866869217751447" speed="12">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\1.png">
                             <collision-poly>
                                 <point x="0.171875" y="0.164063" />
@@ -260,25 +260,61 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="1166875964709025" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\Animation_Placeholders\Animation Placeholders\jump.png">
-                            <image-point name="Ledge Grab" x="0.820313" y="0.25" />
+                    <animation framecount="5" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="1166875964709025" speed="10">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\game_ready_animations01\game_ready_animations01\jump01\1.png">
+                            <image-point name="Ledge Grab" x="0.627273" y="0.25" />
                             <collision-poly>
-                                <point x="0.171875" y="0.164063" />
-                                <point x="0.820313" y="0.164063" />
-                                <point x="0.820313" y="1" />
-                                <point x="0.171875" y="1" />
+                                <point x="0.35" y="0.212121" />
+                                <point x="0.681818" y="0.212121" />
+                                <point x="0.690909" y="1" />
+                                <point x="0.35" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\game_ready_animations01\game_ready_animations01\jump01\2.png">
+                            <image-point name="Ledge Grab" x="0.690909" y="0.25" />
+                            <collision-poly>
+                                <point x="0.35" y="0.212121" />
+                                <point x="0.681818" y="0.212121" />
+                                <point x="0.690909" y="1" />
+                                <point x="0.35" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\game_ready_animations01\game_ready_animations01\jump01\3.png">
+                            <image-point name="Ledge Grab" x="0.690909" y="0.25" />
+                            <collision-poly>
+                                <point x="0.35" y="0.212121" />
+                                <point x="0.681818" y="0.212121" />
+                                <point x="0.690909" y="1" />
+                                <point x="0.35" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\game_ready_animations01\game_ready_animations01\jump01\4.png">
+                            <image-point name="Ledge Grab" x="0.690909" y="0.25" />
+                            <collision-poly>
+                                <point x="0.35" y="0.212121" />
+                                <point x="0.681818" y="0.212121" />
+                                <point x="0.690909" y="1" />
+                                <point x="0.35" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\game_ready_animations01\game_ready_animations01\jump01\5.png">
+                            <image-point name="Ledge Grab" x="0.690909" y="0.25" />
+                            <collision-poly>
+                                <point x="0.35" y="0.212121" />
+                                <point x="0.681818" y="0.212121" />
+                                <point x="0.690909" y="1" />
+                                <point x="0.35" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="Fall" pingpong="0" repeatcount="1" repeatto="0" sid="4895368291834511" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\Animation_Placeholders\Animation Placeholders\jump.png">
-                            <image-point name="Ledge Grab" x="0.820313" y="0.25" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\game_ready_animations01\game_ready_animations01\fall01.png">
+                            <image-point name="Ledge Grab" x="0.627273" y="0.25" />
                             <collision-poly>
-                                <point x="0.171875" y="0.164063" />
-                                <point x="0.820313" y="0.164063" />
-                                <point x="0.820313" y="1" />
-                                <point x="0.171875" y="1" />
+                                <point x="0.35" y="0.212121" />
+                                <point x="0.681818" y="0.212121" />
+                                <point x="0.681818" y="1" />
+                                <point x="0.35" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -293,7 +329,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="11" loop="0" name="Climb" pingpong="0" repeatcount="1" repeatto="0" sid="8595205176886416" speed="5">
+                    <animation framecount="11" loop="0" name="Climb" pingpong="0" repeatcount="1" repeatto="0" sid="8595205176886416" speed="10">
                         <frame duration="1" hotspotX="0.586364" hotspotY="0.0606061" original-source="C:\Users\USER\Desktop\ledgeclimb01\1.png">
                             <image-point name="ClimbLedge" x="0.586364" y="0.0606061" />
                             <collision-poly>
