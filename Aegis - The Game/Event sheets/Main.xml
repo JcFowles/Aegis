@@ -14,7 +14,7 @@
                 <condition id="-1" name="Every tick" sid="2140802181832507" type="System" />
             </conditions>
             <actions>
-                <action id="-4" name="Set position to another object" sid="9633506120039557" type="spr_PlayerAnimations">
+                <action disabled="1" id="-4" name="Set position to another object" sid="9633506120039557" type="spr_PlayerAnimations">
                     <param id="0" name="Object">spr_Player</param>
                     <param id="1" name="Image point (optional)">0</param>
                 </action>
