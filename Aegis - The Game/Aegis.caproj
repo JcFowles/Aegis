@@ -125,6 +125,15 @@
                     <behavior-type name="ScrollTo" sid="8194866397441371">
                         <behavior id="scrollto" />
                     </behavior-type>
+                    <behavior-type name="Persist" sid="4012520501306407">
+                        <behavior id="Persist" />
+                    </behavior-type>
+                    <behavior-type name="Solid" sid="1840246225619138">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="Platform" sid="4630086731865712">
+                        <behavior id="Platform" />
+                    </behavior-type>
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Stand" pingpong="0" repeatcount="1" repeatto="0" sid="202886923167403" speed="5">
