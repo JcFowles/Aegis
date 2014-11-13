@@ -26,8 +26,13 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
+<<<<<<< HEAD
         <width>2024</width>
         <height>1028</height>
+=======
+        <width>2048</width>
+        <height>720</height>
+>>>>>>> parent of 9521d51... Animation Stuff
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -119,7 +124,10 @@
                     <instance-variable name="bExtendViewRight" sid="4788113753644166" type="boolean" />
                     <instance-variable name="bExtendViewUp" sid="1872450227744847" type="boolean" />
                     <instance-variable name="bExtendViewDown" sid="5549481938703656" type="boolean" />
+<<<<<<< HEAD
                     <instance-variable name="iRobotControl" sid="61942511399904" type="number" />
+=======
+>>>>>>> parent of 9521d51... Animation Stuff
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="ScrollTo" sid="8194866397441371">
@@ -137,6 +145,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
+<<<<<<< HEAD
                     <animation framecount="10" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="8866869217751447" speed="10">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\1.png">
                             <collision-poly>
@@ -147,6 +156,10 @@
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\2.png">
+=======
+                    <animation framecount="10" loop="1" name="Run" pingpong="0" repeatcount="1" repeatto="0" sid="8866869217751447" speed="12">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\1.png">
+>>>>>>> parent of 9521d51... Animation Stuff
                             <collision-poly>
                                 <point x="0.171875" y="0.164063" />
                                 <point x="0.820313" y="0.164063" />
@@ -154,7 +167,11 @@
                                 <point x="0.171875" y="1" />
                             </collision-poly>
                         </frame>
+<<<<<<< HEAD
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\3.png">
+=======
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\2.png">
+>>>>>>> parent of 9521d51... Animation Stuff
                             <collision-poly>
                                 <point x="0.171875" y="0.164063" />
                                 <point x="0.820313" y="0.164063" />
@@ -162,7 +179,11 @@
                                 <point x="0.171875" y="1" />
                             </collision-poly>
                         </frame>
+<<<<<<< HEAD
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\4.png">
+=======
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\3.png">
+>>>>>>> parent of 9521d51... Animation Stuff
                             <collision-poly>
                                 <point x="0.171875" y="0.164063" />
                                 <point x="0.820313" y="0.164063" />
@@ -170,7 +191,11 @@
                                 <point x="0.171875" y="1" />
                             </collision-poly>
                         </frame>
+<<<<<<< HEAD
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\5.png">
+=======
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\4.png">
+>>>>>>> parent of 9521d51... Animation Stuff
                             <collision-poly>
                                 <point x="0.171875" y="0.164063" />
                                 <point x="0.820313" y="0.164063" />
@@ -178,7 +203,11 @@
                                 <point x="0.171875" y="1" />
                             </collision-poly>
                         </frame>
+<<<<<<< HEAD
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\6.png">
+=======
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\5.png">
+>>>>>>> parent of 9521d51... Animation Stuff
                             <collision-poly>
                                 <point x="0.171875" y="0.164063" />
                                 <point x="0.820313" y="0.164063" />
@@ -186,7 +215,11 @@
                                 <point x="0.171875" y="1" />
                             </collision-poly>
                         </frame>
+<<<<<<< HEAD
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\7.png">
+=======
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\6.png">
+>>>>>>> parent of 9521d51... Animation Stuff
                             <collision-poly>
                                 <point x="0.171875" y="0.164063" />
                                 <point x="0.820313" y="0.164063" />
@@ -194,7 +227,11 @@
                                 <point x="0.171875" y="1" />
                             </collision-poly>
                         </frame>
+<<<<<<< HEAD
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\8.png">
+=======
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\7.png">
+>>>>>>> parent of 9521d51... Animation Stuff
                             <collision-poly>
                                 <point x="0.171875" y="0.164063" />
                                 <point x="0.820313" y="0.164063" />
@@ -202,7 +239,11 @@
                                 <point x="0.171875" y="1" />
                             </collision-poly>
                         </frame>
+<<<<<<< HEAD
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\9.png">
+=======
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\8.png">
+>>>>>>> parent of 9521d51... Animation Stuff
                             <collision-poly>
                                 <point x="0.171875" y="0.164063" />
                                 <point x="0.820313" y="0.164063" />
@@ -210,16 +251,41 @@
                                 <point x="0.171875" y="1" />
                             </collision-poly>
                         </frame>
+<<<<<<< HEAD
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\10.png">
+=======
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\9.png">
+>>>>>>> parent of 9521d51... Animation Stuff
+                            <collision-poly>
+                                <point x="0.171875" y="0.164063" />
+                                <point x="0.820313" y="0.164063" />
+                                <point x="0.820313" y="1" />
+                                <point x="0.171875" y="1" />
+                            </collision-poly>
+                        </frame>
+<<<<<<< HEAD
+                    </animation>
+                    <animation framecount="1" loop="0" name="Sneak_Still" pingpong="0" repeatcount="1" repeatto="0" sid="4629023099521248" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\Animation_Placeholders\Animation Placeholders\sneak.png">
+                            <collision-poly>
+                                <point x="0.164063" y="0.367188" />
+                                <point x="0.820313" y="0.367188" />
+=======
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\USER\Desktop\run01\10.png">
                             <collision-poly>
                                 <point x="0.171875" y="0.164063" />
                                 <point x="0.820313" y="0.164063" />
+>>>>>>> parent of 9521d51... Animation Stuff
                                 <point x="0.820313" y="1" />
                                 <point x="0.171875" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
+<<<<<<< HEAD
+                    <animation framecount="1" loop="0" name="Sneak" pingpong="0" repeatcount="1" repeatto="0" sid="8628052055568357" speed="5">
+=======
                     <animation framecount="1" loop="0" name="Sneak_Still" pingpong="0" repeatcount="1" repeatto="0" sid="4629023099521248" speed="5">
+>>>>>>> parent of 9521d51... Animation Stuff
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\Animation_Placeholders\Animation Placeholders\sneak.png">
                             <collision-poly>
                                 <point x="0.164063" y="0.367188" />
@@ -229,16 +295,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Sneak" pingpong="0" repeatcount="1" repeatto="0" sid="8628052055568357" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\Animation_Placeholders\Animation Placeholders\sneak.png">
-                            <collision-poly>
-                                <point x="0.171875" y="0.367188" />
-                                <point x="0.820313" y="0.367188" />
-                                <point x="0.820313" y="1" />
-                                <point x="0.171875" y="1" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
+<<<<<<< HEAD
                     <animation framecount="1" loop="0" name="Crawl_Still" pingpong="0" repeatcount="1" repeatto="0" sid="4108520210294152" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0" original-source="D:\Users\Callan.Moore\Desktop\Animation_Placeholders\Animation Placeholders\crawl.png">
                             <image-point name="Crawl Checker" x="0.5" y="-0.5" />
@@ -1637,6 +1694,37 @@
                                 <point x="0" y="0.947431" />
                                 <point x="0.123289" y="0" />
                                 <point x="0.821297" y="0" />
+=======
+                    <animation framecount="1" loop="0" name="Sneak" pingpong="0" repeatcount="1" repeatto="0" sid="8628052055568357" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\Animation_Placeholders\Animation Placeholders\sneak.png">
+                            <collision-poly>
+                                <point x="0.171875" y="0.367188" />
+                                <point x="0.820313" y="0.367188" />
+                                <point x="0.820313" y="1" />
+                                <point x="0.171875" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Crawl_Still" pingpong="0" repeatcount="1" repeatto="0" sid="4108520210294152" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0" original-source="D:\Users\Callan.Moore\Desktop\Animation_Placeholders\Animation Placeholders\crawl.png">
+                            <image-point name="Crawl Checker" x="0.5" y="-0.5" />
+                            <collision-poly>
+                                <point x="0.117188" y="0.40625" />
+                                <point x="0.792969" y="0.40625" />
+                                <point x="0.792969" y="1" />
+                                <point x="0.117188" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Crawl" pingpong="0" repeatcount="1" repeatto="0" sid="1262812084185716" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0" original-source="D:\Users\Callan.Moore\Desktop\Animation_Placeholders\Animation Placeholders\crawl.png">
+                            <image-point name="Crawl Checker" x="0.5" y="-0.5" />
+                            <collision-poly>
+                                <point x="0.117188" y="0.40625" />
+                                <point x="0.792969" y="0.40625" />
+                                <point x="0.792969" y="1" />
+                                <point x="0.117188" y="1" />
+>>>>>>> parent of 9521d51... Animation Stuff
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\jc.fowles\Desktop\Aegis stuff\Robot_fixed-2014-11-12\Robot_fixed\RobotForward\robot_forward14.png">
@@ -1712,6 +1800,7 @@
                             </collision-poly>
                         </frame>
                     </animation>
+<<<<<<< HEAD
                     <animation framecount="10" loop="0" name="Turn" pingpong="0" repeatcount="1" repeatto="0" sid="2379710225750091" speed="10">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <image-point name="Imagepoint 1" x="0.21875" y="0.242188" />
@@ -1747,6 +1836,36 @@
                                 <point x="0" y="0.947431" />
                                 <point x="0.123289" y="0" />
                                 <point x="0.821297" y="0" />
+=======
+                    <animation framecount="1" loop="0" name="Hang" pingpong="0" repeatcount="1" repeatto="0" sid="8365376184461728" speed="5">
+                        <frame duration="1" hotspotX="0.265625" hotspotY="0.5" original-source="D:\Users\Callan.Moore\Desktop\Animation_Placeholders\Animation Placeholders\ledge_hang_side.png">
+                            <image-point name="Ledge Grab" x="0.820313" y="0.0625" />
+                            <collision-poly>
+                                <point x="0.171875" y="0" />
+                                <point x="0.820313" y="0" />
+                                <point x="0.820313" y="1" />
+                                <point x="0.171875" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="11" loop="0" name="Climb" pingpong="0" repeatcount="1" repeatto="0" sid="8595205176886416" speed="10">
+                        <frame duration="1" hotspotX="0.586364" hotspotY="0.0606061" original-source="C:\Users\USER\Desktop\ledgeclimb01\1.png">
+                            <image-point name="ClimbLedge" x="0.586364" y="0.0606061" />
+                            <collision-poly>
+                                <point x="0.25" y="0.136364" />
+                                <point x="0.668182" y="0.136364" />
+                                <point x="0.672727" y="1" />
+                                <point x="0.254545" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.586364" hotspotY="0.193182" original-source="C:\Users\USER\Desktop\ledgeclimb01\2.png">
+                            <image-point name="ClimbLedge" x="0.586364" y="0.0606061" />
+                            <collision-poly>
+                                <point x="0.25" y="0.136364" />
+                                <point x="0.668182" y="0.136364" />
+                                <point x="0.672727" y="1" />
+                                <point x="0.254545" y="1" />
+>>>>>>> parent of 9521d51... Animation Stuff
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\jc.fowles\Desktop\Aegis stuff\Robot_fixed-2014-11-12\Robot_fixed\Robot_turret\robot_turret02.png">
@@ -1767,10 +1886,17 @@
                             <image-point name="aim" x="-0.75" y="0.242188" />
                             <image-point name="sound" x="0.015625" y="0.5" />
                             <collision-poly>
+<<<<<<< HEAD
                                 <point x="1" y="0.950908" />
                                 <point x="0" y="0.947431" />
                                 <point x="0.123289" y="0" />
                                 <point x="0.821297" y="0" />
+=======
+                                <point x="0.25" y="0.136364" />
+                                <point x="0.668182" y="0.136364" />
+                                <point x="0.672727" y="1" />
+                                <point x="0.254545" y="1" />
+>>>>>>> parent of 9521d51... Animation Stuff
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\jc.fowles\Desktop\Aegis stuff\Robot_fixed-2014-11-12\Robot_fixed\Robot_turret\robot_turret04.png">
@@ -1779,10 +1905,17 @@
                             <image-point name="aim" x="-0.75" y="0.242188" />
                             <image-point name="sound" x="0.015625" y="0.5" />
                             <collision-poly>
+<<<<<<< HEAD
                                 <point x="1" y="0.950908" />
                                 <point x="0" y="0.947431" />
                                 <point x="0.123289" y="0" />
                                 <point x="0.821297" y="0" />
+=======
+                                <point x="0.25" y="0.136364" />
+                                <point x="0.668182" y="0.136364" />
+                                <point x="0.672727" y="1" />
+                                <point x="0.254545" y="1" />
+>>>>>>> parent of 9521d51... Animation Stuff
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\jc.fowles\Desktop\Aegis stuff\Robot_fixed-2014-11-12\Robot_fixed\Robot_turret\robot_turret05.png">
@@ -1791,10 +1924,17 @@
                             <image-point name="aim" x="-0.75" y="0.242188" />
                             <image-point name="sound" x="0.015625" y="0.5" />
                             <collision-poly>
+<<<<<<< HEAD
                                 <point x="1" y="0.950908" />
                                 <point x="0" y="0.947431" />
                                 <point x="0.123289" y="0" />
                                 <point x="0.821297" y="0" />
+=======
+                                <point x="0.25" y="0.136364" />
+                                <point x="0.668182" y="0.136364" />
+                                <point x="0.672727" y="1" />
+                                <point x="0.254545" y="1" />
+>>>>>>> parent of 9521d51... Animation Stuff
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\jc.fowles\Desktop\Aegis stuff\Robot_fixed-2014-11-12\Robot_fixed\Robot_turret\robot_turret06.png">
@@ -1803,10 +1943,17 @@
                             <image-point name="aim" x="-0.75" y="0.242188" />
                             <image-point name="sound" x="0.015625" y="0.5" />
                             <collision-poly>
+<<<<<<< HEAD
                                 <point x="1" y="0.950908" />
                                 <point x="0" y="0.947431" />
                                 <point x="0.123289" y="0" />
                                 <point x="0.821297" y="0" />
+=======
+                                <point x="0.25" y="0.136364" />
+                                <point x="0.668182" y="0.136364" />
+                                <point x="0.672727" y="1" />
+                                <point x="0.254545" y="1" />
+>>>>>>> parent of 9521d51... Animation Stuff
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\jc.fowles\Desktop\Aegis stuff\Robot_fixed-2014-11-12\Robot_fixed\Robot_turret\robot_turret07.png">
@@ -1815,10 +1962,17 @@
                             <image-point name="aim" x="-0.75" y="0.242188" />
                             <image-point name="sound" x="0.015625" y="0.5" />
                             <collision-poly>
+<<<<<<< HEAD
                                 <point x="1" y="0.950908" />
                                 <point x="0" y="0.947431" />
                                 <point x="0.123289" y="0" />
                                 <point x="0.821297" y="0" />
+=======
+                                <point x="0.25" y="0.136364" />
+                                <point x="0.668182" y="0.136364" />
+                                <point x="0.672727" y="1" />
+                                <point x="0.254545" y="1" />
+>>>>>>> parent of 9521d51... Animation Stuff
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\jc.fowles\Desktop\Aegis stuff\Robot_fixed-2014-11-12\Robot_fixed\Robot_turret\robot_turret08.png">
@@ -1827,10 +1981,17 @@
                             <image-point name="aim" x="-0.75" y="0.242188" />
                             <image-point name="sound" x="0.015625" y="0.5" />
                             <collision-poly>
+<<<<<<< HEAD
                                 <point x="1" y="0.950908" />
                                 <point x="0" y="0.947431" />
                                 <point x="0.123289" y="0" />
                                 <point x="0.821297" y="0" />
+=======
+                                <point x="0.25" y="0.136364" />
+                                <point x="0.668182" y="0.136364" />
+                                <point x="0.672727" y="1" />
+                                <point x="0.254545" y="1" />
+>>>>>>> parent of 9521d51... Animation Stuff
                             </collision-poly>
                         </frame>
                     </animation>
@@ -1841,6 +2002,7 @@
                             <image-point name="aim" x="-0.75" y="0.242188" />
                             <image-point name="sound" x="0.015625" y="0.5" />
                             <collision-poly>
+<<<<<<< HEAD
                                 <point x="1" y="0.950908" />
                                 <point x="0" y="0.947431" />
                                 <point x="0.123289" y="0" />
@@ -2135,6 +2297,21 @@
                                 <point x="0" y="0.947431" />
                                 <point x="0.123289" y="0" />
                                 <point x="0.821297" y="0" />
+=======
+                                <point x="0.25" y="0.136364" />
+                                <point x="0.668182" y="0.136364" />
+                                <point x="0.672727" y="1" />
+                                <point x="0.254545" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.290909" hotspotY="0.943182" original-source="C:\Users\USER\Desktop\ledgeclimb01\11.png">
+                            <image-point name="ClimbLedge" x="0.586364" y="0.0606061" />
+                            <collision-poly>
+                                <point x="0.25" y="0.136364" />
+                                <point x="0.668182" y="0.136364" />
+                                <point x="0.672727" y="1" />
+                                <point x="0.254545" y="1" />
+>>>>>>> parent of 9521d51... Animation Stuff
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\jc.fowles\Desktop\Aegis stuff\Robot_fixed-2014-11-12\Robot_fixed\RobotBackwards\robot_backwards15.png">
@@ -3098,7 +3275,10 @@
         <event-sheet>Main.xml</event-sheet>
         <event-sheet>Nick Buttons.xml</event-sheet>
         <event-sheet>lvl_One.xml</event-sheet>
+<<<<<<< HEAD
         <event-sheet>SavedAI(131114).xml</event-sheet>
+=======
+>>>>>>> parent of 9521d51... Animation Stuff
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="2" />
