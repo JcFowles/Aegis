@@ -135,6 +135,7 @@
                         <bExtendViewRight>false</bExtendViewRight>
                         <bExtendViewUp>false</bExtendViewUp>
                         <bExtendViewDown>false</bExtendViewDown>
+                        <iRobotControl>0</iRobotControl>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="ScrollTo">

@@ -137,7 +137,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="spr_robot" uid="75">
+                <instance type="inv_robot" uid="75">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -148,6 +148,8 @@
                         <speed>5</speed>
                         <PlayerCollision>0</PlayerCollision>
                         <PlayerControl>0</PlayerControl>
+                        <iRobotID>0</iRobotID>
+                        <SoundTriggered>0</SoundTriggered>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -174,14 +176,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1035</x>
-                        <y>1074</y>
+                        <x>1377</x>
+                        <y>1066</y>
                         <z>0</z>
-                        <width>132</width>
-                        <height>98</height>
+                        <width>139.636367798</width>
+                        <height>104.533332825</height>
                         <depth>0</depth>
-                        <hotspotX>0.504132211</hotspotX>
-                        <hotspotY>0.958333313</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -252,7 +254,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="console_sound_detection" uid="87">
+                <instance type="console_Robot_Control" uid="87">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -262,8 +264,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2137</x>
-                        <y>674</y>
+                        <x>1645</x>
+                        <y>474</y>
                         <z>0</z>
                         <width>90</width>
                         <height>239</height>
@@ -385,6 +387,7 @@
                         <bExtendViewRight>false</bExtendViewRight>
                         <bExtendViewUp>false</bExtendViewUp>
                         <bExtendViewDown>false</bExtendViewDown>
+                        <iRobotControl>0</iRobotControl>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="ScrollTo">
@@ -778,8 +781,8 @@
                         <x>718</x>
                         <y>941</y>
                         <z>0</z>
-                        <width>312</width>
-                        <height>294</height>
+                        <width>24.960000992</width>
+                        <height>23.51999855</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -800,11 +803,11 @@
                         <x>2450</x>
                         <y>1097</y>
                         <z>0</z>
-                        <width>360</width>
-                        <height>294</height>
+                        <width>28.799999237</width>
+                        <height>23.520000458</height>
                         <depth>0</depth>
-                        <hotspotX>-0.004</hotspotX>
-                        <hotspotY>0.995999992</hotspotY>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1077,8 +1080,8 @@
                         <x>-101</x>
                         <y>1401</y>
                         <z>0</z>
-                        <width>312</width>
-                        <height>294</height>
+                        <width>24.960000992</width>
+                        <height>23.51999855</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1099,11 +1102,11 @@
                         <x>223</x>
                         <y>1547</y>
                         <z>0</z>
-                        <width>360</width>
-                        <height>294</height>
+                        <width>28.799999237</width>
+                        <height>23.520000458</height>
                         <depth>0</depth>
-                        <hotspotX>-0.004</hotspotX>
-                        <hotspotY>0.995999992</hotspotY>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

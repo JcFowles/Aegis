@@ -96,6 +96,7 @@
                         <bExtendViewRight>false</bExtendViewRight>
                         <bExtendViewUp>false</bExtendViewUp>
                         <bExtendViewDown>false</bExtendViewDown>
+                        <iRobotControl>0</iRobotControl>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="ScrollTo">
@@ -627,7 +628,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="spr_robot" uid="23">
+                <instance type="inv_robot" uid="23">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -638,6 +639,8 @@
                         <speed>5</speed>
                         <PlayerCollision>0</PlayerCollision>
                         <PlayerControl>0</PlayerControl>
+                        <iRobotID>0</iRobotID>
+                        <SoundTriggered>0</SoundTriggered>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
@@ -670,8 +673,8 @@
                         <width>132</width>
                         <height>98</height>
                         <depth>0</depth>
-                        <hotspotX>0.504132211</hotspotX>
-                        <hotspotY>0.958333313</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -689,8 +692,8 @@
                         <x>957</x>
                         <y>883</y>
                         <z>0</z>
-                        <width>312</width>
-                        <height>294</height>
+                        <width>24.960000992</width>
+                        <height>23.51999855</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -714,8 +717,8 @@
                         <width>360</width>
                         <height>294</height>
                         <depth>0</depth>
-                        <hotspotX>-0.004</hotspotX>
-                        <hotspotY>0.995999992</hotspotY>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>1</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

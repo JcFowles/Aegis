@@ -11,8 +11,8 @@
         <comment>If the robot is not being controlled OR using Extended View</comment>
         <event-block sid="2735341470536005">
             <conditions>
-                <condition id="-7" name="Compare instance variable" sid="6870473787771864" type="spr_robot">
-                    <param id="0" name="Instance variable">PlayerControl</param>
+                <condition id="-7" name="Compare instance variable" sid="6870473787771864" type="spr_PlayerAnimations">
+                    <param id="0" name="Instance variable">iRobotControl</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
                 </condition>
