@@ -2,5 +2,38 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>lvl_One</name>
-    <events />
+    <events>
+        <event-block sid="3823582671952465">
+            <conditions />
+            <actions />
+        </event-block>
+        <event-block sid="7150797054956376">
+            <conditions>
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="1826805745729192" type="spr_Player">
+                    <param id="0" name="Object">inv_Camera_Door</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="11" name="Set collisions enabled" sid="590569865388521" type="DoorLvL1">
+                    <param id="0" name="Collisions">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9510566573950446" type="DoorLvL1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4244561529514423">
+            <conditions>
+                <condition id="-22" name="Else" sid="5469147215723116" type="System" />
+            </conditions>
+            <actions>
+                <action id="11" name="Set collisions enabled" sid="3904215510250552" type="DoorLvL1">
+                    <param id="0" name="Collisions">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="6151726391163335" type="DoorLvL1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

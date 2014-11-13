@@ -57,7 +57,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="hacking_console_background" uid="60">
+                <instance type="spr_PuzzleBack" uid="104">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -67,8 +67,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>973</x>
-                        <y>360</y>
+                        <x>974</x>
+                        <y>362</y>
                         <z>0</z>
                         <width>1280</width>
                         <height>720</height>
@@ -341,11 +341,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>515</x>
-                        <y>66.5</y>
+                        <x>1444.5</x>
+                        <y>660</y>
                         <z>0</z>
-                        <width>250</width>
-                        <height>49</height>
+                        <width>157</width>
+                        <height>41</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

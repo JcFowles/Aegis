@@ -119,6 +119,7 @@
                     <instance-variable name="bExtendViewRight" sid="4788113753644166" type="boolean" />
                     <instance-variable name="bExtendViewUp" sid="1872450227744847" type="boolean" />
                     <instance-variable name="bExtendViewDown" sid="5549481938703656" type="boolean" />
+                    <instance-variable name="iRobotControl" sid="4197245214612101" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="ScrollTo" sid="8194866397441371">
@@ -984,6 +985,66 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="spr_Cam2" sid="3404913353776438">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="0 is off / 1 is On" name="Camera_On" sid="4983959395546407" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Persist" sid="214273514040931">
+                        <behavior id="Persist" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="On" pingpong="0" repeatcount="1" repeatto="0" sid="8286638179693292" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Playtech\Desktop\Construct2-2014-11-01\Construct2\robot shit\Camera_idle1.gif">
+                            <collision-poly>
+                                <point x="0.851562" y="0.5" />
+                                <point x="0.859375" y="0.859375" />
+                                <point x="0.5" y="0.890625" />
+                                <point x="0.429687" y="0.570313" />
+                                <point x="0.476562" y="0.5" />
+                                <point x="0.507812" y="0.507813" />
+                                <point x="0.5" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Defualt" pingpong="0" repeatcount="1" repeatto="0" sid="1468996987812646" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.5" y="0.5" />
+                                <point x="0.492188" y="0.507813" />
+                                <point x="0.523438" y="0.5" />
+                                <point x="0.570313" y="0.570313" />
+                                <point x="0.5" y="0.890625" />
+                                <point x="0.140625" y="0.859375" />
+                                <point x="0.148438" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="4107997693880207" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.5" y="0.5" />
+                                <point x="0.492188" y="0.507813" />
+                                <point x="0.523438" y="0.5" />
+                                <point x="0.570313" y="0.570313" />
+                                <point x="0.5" y="0.890625" />
+                                <point x="0.140625" y="0.859375" />
+                                <point x="0.148438" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="inv_Camera_Door" sid="2496680100431587">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4633101120941756" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Keyboard" sid="9775300593741544">
             <plugin id="Keyboard" />
@@ -1084,14 +1145,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="142937101815034" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="hacking_console_background" sid="1833079581786694">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2753038640569677" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="H:\downloads\Aegis - The Game\New folder\hacking_console_background.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1420,6 +1473,63 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5453012112360288" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="spr_PuzzleBack" sid="2315403306900103">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3140129372279051" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\Nicholas.Gould\Documents\GitHub\10800498_10152552854268915_1815795235_o.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DoorOpenLvL1" sid="1630583193043521">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Persist" sid="7082638495878666">
+                    <behavior id="Persist" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8584911550916191" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502041">
+                        <collision-poly>
+                            <point x="0.125" y="0.0938776" />
+                            <point x="0.5" y="0" />
+                            <point x="0.88587" y="0.0857143" />
+                            <point x="0.880435" y="0.497959" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.130435" y="0.497959" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="DoorLvL1" sid="3496641644066408">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Persist" sid="2449797566046587">
+                    <behavior id="Persist" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="5864124048926445">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4797876958969027" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502041">
+                        <collision-poly>
+                            <point x="0.125" y="0.0938776" />
+                            <point x="0.5" y="0" />
+                            <point x="0.88587" y="0.0857143" />
+                            <point x="0.880435" y="0.497959" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.130435" y="0.497959" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>

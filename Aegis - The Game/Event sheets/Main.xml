@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Main</name>
     <events>
+        <include>lvl_One</include>
         <include>Camera</include>
         <include>Nick Buttons</include>
         <include>LevelSwap</include>
